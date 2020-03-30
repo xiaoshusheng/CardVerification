@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/xbb_bg" />
+
+
+    <ImageView
+        android:id="@+id/iv_update_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@mipmap/xbb_bg_x" />
+
+    <TextView
+        android:id="@+id/tv_update_content"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:lineSpacingExtra="2dp"
+        android:ellipsize="end"
+        android:maxLines="6"
+        android:textColor="@color/color_333333"
+        tools:text="1.更新了什么什么更新了什么\n2.什么更新了什么什么么么么么么么么么什么更新了\n3.么什么更新了什么什么更新\n4.了什么什么么什么更新了什么什么更新" />
+
+    <TextView
+        android:id="@+id/tv_update_now"
+        android:layout_width="134dp"
+        android:layout_height="33dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/btn_blue_bg_round"
+        android:gravity="center"
+        android:text="@string/str_update_now"
+        android:textColor="@color/color_FFFFFF"
+        android:textSize="13sp" />
+
+</FrameLayout>
+

@@ -1,0 +1,69 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/animation_translucent_activity</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <!-- 转场动画 -->
+    <style name="animation_translucent_activity" parent="@android:style/Animation.Translucent">
+        <!-- 一个activity创建进入的效果 -->
+        <item name="android:activityOpenEnterAnimation">@anim/common_activity_open_enter</item>
+        <!-- 一个activity还没有finish()下退出效果, 比如有俩个activity A与B 首先启动A 然后再启动B 那么A还没有finish()  这时A的退出效果 -->
+        <item name="android:activityOpenExitAnimation">@anim/common_activity_open_exit</item>
+        <!--表示上一个activity返回进入效果 比如有俩个activity A与B  B在最上面，B退出(finish)后 A重新进入的效果-->
+        <item name="android:activityCloseEnterAnimation">@anim/common_activity_close_enter</item>
+        <!-- 表示的是activity finish()之后的效果 比如有俩个activity A与B B退出后会被finish() 那么B的退出效果在这定义 -->
+        <item name="android:activityCloseExitAnimation">@anim/common_activity_close_exit</item>
+    </style>
+
+    <!-- 通用dialog -->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <!--边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--半透明-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- LoadingDialog样式 -->
+    <style name="loadingDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <!-- 自定义加载进度 -->
+    <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateHidden|adjustPan</item>
+    </style>
+
+    <style name="style_tv_call">
+        <item name="android:layout_height">@dimen/dp_40</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/border_f08519_fff_5</item>
+        <item name="android:layout_margin">@dimen/dp_10</item>
+        <item name="android:textColor">@color/color_FFFFFF</item>
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+</resources>

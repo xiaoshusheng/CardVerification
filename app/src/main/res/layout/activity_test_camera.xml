@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_70"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_30"
+        android:paddingRight="@dimen/dp_30"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/tv_call_card"
+            android:text="@string/str_call_card"
+            style="@style/style_tv_call" />
+        <TextView
+            android:id="@+id/tv_call_camera"
+            android:text="@string/str_call_camera"
+            style="@style/style_tv_call"/>
+        <TextView
+            android:id="@+id/tv_call_photo"
+            android:text="@string/str_call_picture"
+            style="@style/style_tv_call"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_F0F0F0"
+        android:padding="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_20"
+        tools:text="@string/fab_transformation_sheet_behavior"/>
+
+    <ImageView
+        android:id="@+id/iv_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_20"
+        tools:src="@mipmap/wel1"
+        android:contentDescription="@string/str_show_picture" />
+
+</LinearLayout>

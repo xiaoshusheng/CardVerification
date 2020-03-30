@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--首页相关字段-->
+    <string-array name="home_card_names">
+        <item>参保情况</item>
+        <item>缴费情况</item>
+        <item>支出情况</item>
+        <item>财务资金</item>
+    </string-array>
+
+
+</resources>

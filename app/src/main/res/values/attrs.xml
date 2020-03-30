@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--网络加载相关-->
+    <declare-styleable name="FrameLayout4Loading">
+        <attr name="filterable" format="boolean" />
+        <attr name="loadingView" format="reference" />
+        <attr name="defaultExceptionView" format="reference" />
+        <attr name="defaultNetworkExceptionView" format="reference" />
+        <attr name="defaultDataExceptionnView" format="reference" />
+        <attr name="noNetworkView" format="reference" />
+        <attr name="timeoutView" format="reference" />
+        <attr name="noDataView" format="reference" />
+    </declare-styleable>
+    <!--ToolbarCommon中xml定义的样式-->
+    <declare-styleable name="ToolbarCommon">
+        <attr name="commonTbTitle" format="string|reference" />
+        <attr name="commonTbTitleSize" format="dimension|reference" />
+        <attr name="commonTbTitleColor" format="color|reference" />
+        <attr name="commonTbOptionTextSize" format="dimension" />
+        <attr name="commonTbOptionTextColor" format="color|reference" />
+    </declare-styleable>
+    <!--CommonTextItem中xml定义的样式-->
+    <declare-styleable name="CommonTextItem">
+        <attr name="commonTextName" format="string|reference" />
+        <attr name="commonTextNum" format="string|reference" />
+    </declare-styleable>
+    <!--自定义日期样式-->
+    <!--时间-->
+    <style name="TimePickerDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/color_FFFFFF</item>
+    </style>
+
+</resources>

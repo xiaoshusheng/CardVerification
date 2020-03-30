@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1482de</color>
+    <color name="colorPrimaryDark">#38b9ef</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="color_A3A29E">#a3a29e</color>
+    <color name="color_E7E4E4">#e7e4e4</color>
+    <color name="color_2D2C2C">#2d2c2c</color>
+    <color name="color_D88816">#D88816</color>
+    <color name="color_F3F5F7">#F3F5F7</color>
+    <color name="color_D1CFCF">#d1cfcf</color>
+    <color name="color_BFD4D4">#bfd4d4</color>
+    <color name="color_FFFFFF">#ffffff</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_F08519">#f08519</color>
+    <color name="color_1482DE">#1482de</color>
+    <color name="color_F39C12">#f39c12</color>
+    <color name="color_CCCCCC">#cccccc</color>
+    <color name="color_F0F0F0">#f0f0f0</color>
+    <color name="color_F3F3F3">#f3f3f3</color>
+    <color name="color_272727">#272727</color>
+    <!-- 导航栏背景色 -->
+    <color name="color_22AACB">#22aacb</color>
+    <!--fragment 切换背景-->
+    <color name="color_1889A4">#1889a4</color>
+    <color name="color_CAC9C9">#cac9c9</color>
+    <!--字体颜色-->
+    <color name="color_333333">#333333</color>
+    <color name="color_BE0505">#be0505</color>
+    <!--柱状图表颜色-->
+    <color name="color_056EBE">#056ebe</color>
+    <color name="color_07F18B">#07f18b</color>
+
+    <color name="color_8CCA48">#8CCA48</color>
+    <color name="color_F6402C">#F6402C</color>
+    <color name="color_FC7D1F">#FC7D1F</color>
+    <color name="color_FEF8F5">#FEF8F5</color>
+    <color name="color_F04719">#F04719</color>
+    <color name="color_F54040">#F54040</color>
+    <color name="color_F77104">#F77104</color>
+    <color name="color_048E0C">#048E0C</color>
+    <color name="color_2768C0">#2768C0</color>
+    <color name="color_29AB91">#29AB91</color>
+    <color name="color_AA82C0">#AA82C0</color>
+    <color name="color_EFCD09">#efcd09</color>
+    <color name="color_C27B73">#c27b73</color>
+    <color name="color_38B9EF">#38b9ef</color>
+    <!--测试颜色-->
+    <color name="color_test">#00ff00</color>
+</resources>

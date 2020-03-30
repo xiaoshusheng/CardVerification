@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">核验平台</string>
+
+    <string name="app_version">版本名称</string>
+    <!--常用文字 以 str_ 开头-->
+    <string name="str_login">登录</string>
+    <string name="str_register">注册</string>
+    <string name="str_update_now">立即升级</string>
+    <string name="str_function_point">将电子社保卡卡号面放在此区域，扫描卡片</string>
+    <string name="str_card_title">扫描社保卡</string>
+    <string name="str_call_card">扫描卡片</string>
+    <string name="str_call_camera">调用相机</string>
+    <string name="str_call_picture">调用相册</string>
+    <string name="str_show_picture">显示图片</string>
+
+</resources>

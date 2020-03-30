@@ -1,0 +1,71 @@
+
+ext {
+    android = [
+            compileSdkVersion: 28,
+            buildToolsVersion: "28.0.3",
+            applicationId    : "com.wonders.cardverification",
+            minSdkVersion    : 16,
+            targetSdkVersion : 28,
+            versionCode      : 110,
+            versionName      : "1.1.0"
+    ]
+
+   dependencies = [
+           junit                            :"junit:junit:4.12",
+           espresso                         :"androidx.test.espresso:espresso-core:3.2.0-alpha03",
+           annotation                       :"androidx.annotation:annotation:1.0.2",
+           appcompat                        :"androidx.appcompat:appcompat:1.1.0-alpha04",
+           recyclerview                     :"androidx.recyclerview:recyclerview:1.1.0-alpha04",
+           constraintlayout                 :"androidx.constraintlayout:constraintlayout:2.0.0-alpha3",
+           design                           :"com.google.android.material:material:1.0.0",
+           cardview                         :"androidx.cardview:cardview:1.0.0",
+           //Retrofit
+           retrofit2                        :"com.squareup.retrofit2:retrofit:2.4.0",
+           retrofit2_adapter                :"com.squareup.retrofit2:adapter-rxjava2:2.4.0",
+           retrofit2_converter              :"com.squareup.retrofit2:converter-gson:2.4.0",
+           //RxJava
+           rxjava                           : "io.reactivex.rxjava2:rxjava:2.2.3",
+           //autoDispose代替RxLife 用于RxJava的订阅和解除
+           autodispose                      :"com.uber.autodispose:autodispose-android:1.2.0",
+           autodispose_archcomponents       :"com.uber.autodispose:autodispose-android-archcomponents:1.2.0",
+           //RxAndroid
+           rxandroid                        :"io.reactivex.rxjava2:rxandroid:2.1.0",
+           //RxPermissions权限依赖
+           rxpermissions                    :"com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar",
+           //ButterKnife
+           butterknife                      :"com.jakewharton:butterknife:10.0.0",
+           butterknife_compiler             :"com.jakewharton:butterknife-compiler:10.0.0",
+           //utilCode
+           utilcode                         :"com.blankj:utilcode:1.13.4",
+           //阿里的ARouter
+           arouter                          :"com.alibaba:arouter-api:1.4.0",
+           arouter_compiler                 :"com.alibaba:arouter-compiler:1.1.4",
+           //图片glide
+           glide                            :"com.github.bumptech.glide:glide:4.8.0",
+           glide_compiler                   :"com.github.bumptech.glide:compiler:4.8.0",
+           //动画lottie
+           lottie                           :"com.airbnb.android:lottie:2.1.0",
+           // GreenGao
+           greendao                         :"org.greenrobot:greendao:3.2.2",
+           // 今日头条适配方案
+           autosize                         :"me.jessyan:autosize:1.1.2",
+           //square内存泄漏分析工具leakCanary
+           leakcanary                       :"com.squareup.leakcanary:leakcanary-android:1.6.3",
+           leakcanary_android               :"com.squareup.leakcanary:leakcanary-android-no-op:1.6.3",
+           // Optional, if you use support library fragments:
+           leakcanary_support_fragment      :"com.squareup.leakcanary:leakcanary-support-fragment:1.6.3",
+           banner                           :"com.youth.banner:banner:1.4.10",
+           //MPAndroidChart
+           android_chart                    :"com.github.PhilJay:MPAndroidChart:v3.1.0",
+           //下拉刷新
+           smartRefreshLayout               :"com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-andx-11",
+           smartRefresh_header              :"com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-andx-11",
+           legacy                           :"androidx.legacy:legacy-support-v4:1.0.0",
+           eventBus                         :"org.greenrobot:eventbus:3.1.1",
+           //dialog
+           dialog                           :"com.orhanobut:dialogplus:1.11@aar"
+   ]
+}
+
+
+
